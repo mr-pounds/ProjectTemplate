@@ -1,9 +1,10 @@
 [[source]]
-url = "https://pypi.org/simple"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple some-package"
 verify_ssl = true
 name = "pypi"
 
 [packages]
+PyYAML = "==5.4.1"
 
 [dev-packages]
 isort = "==5.9.3"

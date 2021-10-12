@@ -68,3 +68,4 @@ tomli==1.2.1; python_version >= '3.6'
 
 typing-extensions==3.10.0.2
 
+pyyaml==5.4.1
