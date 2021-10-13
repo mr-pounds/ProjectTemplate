@@ -19,5 +19,6 @@ if __name__ == '__main__':
     cd %s
     git init
     pipenv install --dev --python 3.8
+    pipenv run pre-commit install
     """% PROJECT_NAME)
 
