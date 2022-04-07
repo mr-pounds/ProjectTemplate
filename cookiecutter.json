@@ -5,10 +5,5 @@
   "project_name": "Project Template",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
   "project_short_description": "Project Template",
-  "pypi_username": "{{ cookiecutter.github_username }}",
-  "version": "0.1.0",
-  "use_pytest": "n",
-  "use_black": "n",
-  "use_pypi_deployment_with_travis": "y",
-  "add_pyup_badge": "n"
+  "version": "0.1.0"
 }
