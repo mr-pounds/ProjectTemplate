@@ -1,3 +1,11 @@
+"""
+Name         : 
+Version      : 1.0.1
+Author       : zzz
+Date         : 2022-01-11 12:13:42
+LastEditors  : zzz
+LastEditTime : 2022-07-20 16:36:48
+"""
 import os
 
 import yaml
@@ -10,6 +18,9 @@ DB_DIR = os.path.join(project_path, "db")
 
 # 日志文件地址
 LOG_DIR = os.path.join(project_path, "log")
+
+# 其他文件地址
+DOC_DIR = os.path.join(project_path, "doc")
 
 # 静态或模板文档地址
 TEMPLATE = os.path.join(project_path, "template")
