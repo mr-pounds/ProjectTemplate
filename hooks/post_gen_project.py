@@ -1,3 +1,11 @@
+"""
+Name         : 
+Version      : 1.0.1
+Author       : zzz
+Date         : 2022-10-21 12:56:02
+LastEditors  : zzz
+LastEditTime : 2023-02-06 14:12:52
+"""
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 """
@@ -19,7 +27,7 @@ if __name__ == "__main__":
         """项目创建成功，请继续执行以下操作完成项目创建：
     cd %s
     git init
-    pipenv install --dev --python 3.8
+    pipenv install --dev
     pipenv run pre-commit install
     """
         % PROJECT_NAME
