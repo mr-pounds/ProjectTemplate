@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pyyaml = "*"
 
 [dev-packages]
 pre-commit = "==2.15.0"
