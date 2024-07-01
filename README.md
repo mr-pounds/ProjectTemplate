@@ -4,7 +4,7 @@
 
 ```Shell
 pip install cookiecutter # 不用安装到虚拟环境
-cookiecutter https://e.coding.net/jinuobushibili/zzz_tools/ProjectTemplate.git
+cookiecutter https://github.com/mr-pounds/ProjectTemplate.git
 ```
 除上述内容外，项目模板中还包含项目目录、项目配置等多项内容。
 
@@ -20,8 +20,8 @@ cookiecutter https://e.coding.net/jinuobushibili/zzz_tools/ProjectTemplate.git
 * sample(dir)：关键代码文件，每个包单独目录
    * \_ *init* \_.py
    * main.py
-   * setting.py：添加了部分目录的路径变量，如db。
 * README.md：项目说明文档
+* .env：项目配置文件
 * requirements.txt：项目依赖的三方库
 * setup.py：安装、部署、打包代码
 
